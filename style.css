@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html{
+  overflow-x: hidden
+}
+
+#navbar {
+  padding: 0px 9% 0px;
+}
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+.nav-item .nav-link {
+  color: black;
+  font-weight: 550;
+  transition: all 0.4s;
+}
+.nav-item .nav-link:hover {
+  color: crimson;
+  scale: 1.1;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  padding: 5px 11% 80px;
+}
+.home .img {
+  flex: 1 1 300px;
+}
+.home .img img {
+  width: 100%;
+}
+.home-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 400px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+/* Top Section */
+.top-section {
+  padding: 10px 11% 100px;
+}
+.top-section .row .car img {
+  width: 200px;
+}
+.top-section .card-body h1 {
+  font-size: 25px;
+}
+#menu {
+  padding: 100px 11% 100px;
+}
+.order {
+  padding: 100px 11% 100px;
+}
+.order textarea {
+  resize: none;
+}
+/* Reviews Section */
+.review {
+  padding: 100px 11% 100px;
+}
+.review h5 img {
+  width: 60px;
+  border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 100px 11% 100px;
+}
+.contact textarea {
+  resize: none;
+}
+/* Footer Section */
+#footer {
+  padding: 100px 11% 100px;
+}
+.f-logo img {
+  width: 250px;
+}
+.f-content i {
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.f-content i:hover {
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+}
